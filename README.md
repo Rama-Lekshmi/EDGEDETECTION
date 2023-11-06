@@ -1,4 +1,4 @@
-# Edge-Detection...
+# EXP-7 EDGE DETECTION
 
 ## Aim:
 
