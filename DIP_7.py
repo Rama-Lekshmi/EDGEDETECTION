@@ -1,41 +1,8 @@
-# Edge-Detection...
+#!/usr/bin/env python
+# coding: utf-8
 
-## Aim:
+# In[1]:
 
-To perform edge detection using Sobel, Laplacian, and Canny edge detectors.
-
-## Software Required:
-
-Anaconda - Python 3.7 .
-
-## Algorithm:
-
-### Step 1:
-
-Import the required packages for further process.
-
-### Step 2:
-
-Read the image and convert the bgr image to gray scale image.
-
-### Step 3:
-
-Use any filters for smoothing the image to reduse the noise.
-
-### Step 4:
-
-Apply the respective filters -Sobel,Laplacian edge dectector and Canny edge dector.
-
-### Step 5:
-
-Display the filtered image using plot and imshow.
- 
- 
-## Program:
-
-```python 
-
-# Import the packages and load the image, Convert to grayscale and remove noise:
 
 import cv2
 import matplotlib.pyplot as plt
@@ -44,13 +11,9 @@ plt.imshow(image)
 gray_image = cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
 new_image = cv2.GaussianBlur(gray_image,(3,3),0)
 
-```
 
-```python
+# In[2]:
 
-# SOBEL EDGE DETECTOR:
-
-# SOBEL-X:
 
 import cv2
 import matplotlib.pyplot as plt
@@ -69,11 +32,9 @@ plt.xticks([])
 plt.yticks([])
 plt.show()
 
-```
 
-```python
+# In[3]:
 
-# SOBEL-Y:
 
 import cv2
 import matplotlib.pyplot as plt
@@ -92,11 +53,9 @@ plt.xticks([])
 plt.yticks([])
 plt.show()
 
-```
 
-```python
+# In[4]:
 
-# SOBEL-XY:
 
 import cv2
 import matplotlib.pyplot as plt
@@ -115,11 +74,9 @@ plt.xticks([])
 plt.yticks([])
 plt.show()
 
-```
 
-```python
+# In[5]:
 
-# LAPLACIAN EDGE DETECTOR:
 
 import cv2
 import matplotlib.pyplot as plt
@@ -138,11 +95,9 @@ plt.xticks([])
 plt.yticks([])
 plt.show()
 
-```
 
-```python 
+# In[6]:
 
-# CANNY EDGE DETECTOR:
 
 import cv2
 import matplotlib.pyplot as plt
@@ -161,46 +116,9 @@ plt.xticks([])
 plt.yticks([])
 plt.show()
 
-```
+
+# In[ ]:
 
 
-## Output:
-
-### INPUT IMAGE:
-
-![DI7 1](https://github.com/Javith-farkhan/Edge-Detection/assets/94296805/6046e47d-95d2-4fd1-ad3c-109be0fec995)
-
-
-### SOBEL EDGE DETECTOR:
-
-### SOBEL-X:
-
-![Di7 2](https://github.com/Javith-farkhan/Edge-Detection/assets/94296805/67806391-0c83-465d-8ee6-3a6d482ebe31)
-
-
-### SOBEL-Y:
-
-![Di7 3](https://github.com/Javith-farkhan/Edge-Detection/assets/94296805/a12cf668-ca37-4958-acca-eac59be047cf)
-
-
-### SOBEL-XY:
-
-![Di7 4](https://github.com/Javith-farkhan/Edge-Detection/assets/94296805/efc71567-1bd3-48ac-9bf2-ae51f519ccf7)
-
-
-
-### LAPLACIAN EDGE DETECTOR:
-
-![Di7 5](https://github.com/Javith-farkhan/Edge-Detection/assets/94296805/28b76459-b220-4be9-a9ae-6416342aae5e)
-
-
-### CANNY EDGE DETECTOR:
-
-![DI7 6](https://github.com/Javith-farkhan/Edge-Detection/assets/94296805/2484ac6d-d18c-4993-921b-7ffcd394c119)
-
-
-## Result:
-
-Thus the edges are detected using Sobel, Laplacian, and Canny edge detectors.
 
 
