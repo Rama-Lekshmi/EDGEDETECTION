@@ -34,7 +34,8 @@ Display the filtered image using plot and imshow.
 ## Program:
 
 ```python 
-
+## Developed by:Rama E.K.Lekshmi
+## Register no:212222240082
 # Import the packages and load the image, Convert to grayscale and remove noise:
 
 import cv2
